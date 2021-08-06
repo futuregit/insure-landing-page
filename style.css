@@ -1,3 +1,8 @@
+/* Styles are applied top down from header to footer.
+   Areas are separated by type of styles. */
+
+/* Begin global variables */
+
 :root {
     --primary-darkblue-intro: hsl(217, 28%, 15%);
     --primary-darkblue-main: hsl(218, 28%, 13%);
@@ -19,16 +24,52 @@
     --clr-egg: rgb(236, 226, 226);
 }
 
-*, *::before, *::after {
+/* End global variable */
 
+/* Begin General styles */
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
+
 body {
     margin: 0;
     font-size: 1rem ;
+    font-family: 'Karla', sans-serif;
+    /* font-family: 'DM Serif Display', serif; */
 }
 
-/* Desktop media query */
+.container {
+    max-width: 1940px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+/* End General styles */
+
+/* Begin Typography */
+
+
+
+/* End Typography */
+
+/* Begin Colors */
+
+
+
+/* End Colors */
+
+/* Begin Structure */
+
+
+
+/* End Structure */
+
+/* Begin desktop media query min-width 1000px */
 
 @media (min-width: 1000px) {
 
 }
+
+/* End desktop media query min-width 1000px */
