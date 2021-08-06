@@ -1,0 +1,34 @@
+:root {
+    --primary-darkblue-intro: hsl(217, 28%, 15%);
+    --primary-darkblue-main: hsl(218, 28%, 13%);
+    --primary-darkblue-footer: hsl(216, 53%, 9%);
+    --primary-darkblue-testimonials: hsl(219, 30%, 18%);
+    --primary-darkviolet: hsl(256, 26%, 20%);
+    --primary-grayblue: hsl(216, 30%, 68%);
+    
+
+    --accent-cyan: hsl(176, 68%, 64%);
+    --accent-blue: hsl(198, 60%, 50%);
+    --accent-red: hsl(0, 100%, 63%);
+
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-verydarkviolet: hsl(270, 9%, 17%);
+    --neutral-darkgrayviolet: hsl(273, 4%, 51%)
+    --neutral-lightgrey: hsl(0, 0%, 98%);
+
+    --clr-egg: rgb(236, 226, 226);
+}
+
+*, *::before, *::after {
+
+}
+body {
+    margin: 0;
+    font-size: 1rem ;
+}
+
+/* Desktop media query */
+
+@media (min-width: 1000px) {
+
+}

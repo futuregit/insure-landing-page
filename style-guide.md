@@ -26,7 +26,7 @@ The designs were created to the following widths:
 
 - Font size: 16px
 
-### Headings
+### Headings 
 
 - Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
 - Weights: 400
