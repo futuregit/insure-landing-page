@@ -196,6 +196,63 @@ hr {
     padding-left: 1em;
 }
 
+footer {
+    background-image: url('./images/bg-pattern-footer-mobile.svg'),
+    linear-gradient(to right,  var(--neutral-lightgrey), var(--neutral-lightgrey));
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+.footer__container {
+    max-width: 1940px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5em 1.5em;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.footer__social a + a {
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+.footer__line {
+    width: 100%;
+}
+
+.footer__subheading {
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: var(--primary-grayblue);
+    font-weight: normal;
+    padding-top: 2em;
+}
+
+.col {
+    list-style: none;   
+    padding-left: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    padding-top: 3em;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+ul li {
+    padding-top: .5em;
+}
+
+
 /* End Structure */
 
 /* Begin desktop media query min-width 1000px */
