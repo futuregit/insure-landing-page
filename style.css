@@ -18,7 +18,7 @@
 
     --neutral-white: hsl(0, 0%, 100%);
     --neutral-verydarkviolet: hsl(270, 9%, 17%);
-    --neutral-darkgrayviolet: hsl(273, 4%, 51%)
+    --neutral-darkgrayviolet: hsl(273, 4%, 51%);
     --neutral-lightgrey: hsl(0, 0%, 98%);
 
     --clr-egg: rgb(236, 226, 226);
@@ -50,19 +50,151 @@ body {
 
 /* Begin Typography */
 
+h1,
+h2,
+h3,
+.navbar__links {
+    font-family: 'DM Serif Display', serif;
+}
 
+h1 {
+    font-size: 2.8rem;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+
+.hero__text {
+    font-weight: normal;
+    line-height: 1.8em;
+}
+
+.call-to-action__text {
+    font-weight: normal;
+    line-height: 1.2em;
+    font-size: 2.2rem;
+}
 
 /* End Typography */
 
+
 /* Begin Colors */
 
+h1,
+.call-to-action__text {
+    color: white;
+}
 
+.features__title {
+    color: black;
+}
+
+.hero__text {
+   color: var(--clr-egg);
+}
 
 /* End Colors */
 
 /* Begin Structure */
+.header__logo-hamburger-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0;
+}
 
+.navbar {
+    display: none;
+}
 
+.hero {
+    background-color: var(--primary-darkviolet);
+    display: flex;
+    flex-flow: column-reverse; 
+}
+
+.hero__left {
+    background: url('./images/bg-pattern-intro-left-mobile.svg');
+   
+    background-repeat: no-repeat;
+    background-position: 2% 0;
+    position: relative; /*for background image */
+}
+
+.hero__left::before {
+    content: '';
+    position: absolute;
+    width: 124px;
+    height: 330px;
+    top: 80%;
+    right: 0%;
+    z-index: 1;
+    background: url('./images/bg-pattern-intro-right-mobile.svg');
+    background-repeat: no-repeat;
+}
+
+.hero__title {
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hero__left {
+    text-align: center;
+    margin-bottom: 3.5em;
+}
+
+.hero__text {
+    padding-bottom: 1.5em;
+}
+
+.btn {
+    border: 1.5px solid white;
+    color: white;
+    padding: .5em 1.4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-size: 1.5rem; */
+}
+
+.hero__right {
+    text-align: center;
+}
+
+.features {
+    margin-top: 8em;
+    text-align: center;
+}
+
+hr {
+    width: 30%;
+}
+
+.features__text {
+    padding-bottom: 2em;
+}
+
+.call-to-action {
+    text-align: center;
+    background-image: url('./images/bg-pattern-how-we-work-mobile.svg'), linear-gradient(to right,  var(--primary-darkviolet),  var(--primary-darkviolet));
+    background-position: 100% 15%;
+    background-repeat: no-repeat;
+    margin-top: 6em;
+    padding-top: 2.5em;
+    padding-bottom: 4.5em;
+}
+
+.call-to-action__text {
+    padding-right: 1em;
+    padding-left: 1em;
+}
 
 /* End Structure */
 
