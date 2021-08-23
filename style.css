@@ -161,7 +161,7 @@ header {
 
 .navbar__links li a,
 .navbar__links--open li a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     text-decoration: none;   
 }
