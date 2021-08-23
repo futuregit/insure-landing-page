@@ -111,6 +111,10 @@ header {
     url('images/icon-close.svg');
 }
 
+.navbar__links--closed {
+    display: none;
+}
+
 .navbar--open {
     position: absolute;
     top: 65px;
@@ -125,7 +129,7 @@ header {
     justify-content: space-between;
     background-image: url('./images/bg-pattern-mobile-nav.svg');
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 120%;
     background-position: 6% 45%;
     z-index: 2;
 }
@@ -133,10 +137,15 @@ header {
 .navbar__links {
     padding-left: 0;    
     text-align: center;
+    display: none;
 }
 
-.navbar__links {
-    display: none;
+.navbar__links li {
+    list-style: none;
+}
+
+.navbar__links--open {
+    display: block;
 }
 
 .navbar__links--open li {
@@ -150,14 +159,17 @@ header {
     text-transform: uppercase;
 }
 
-.navbar__links li a {
+.navbar__links li a,
+.navbar__links--open li a {
     font-size: 2rem;
     color: white;
     text-decoration: none;   
 }
 
 .navbar__links li a:hover,
-.navbar__links li a:active {
+.navbar__links li a:active,
+.navbar__links--open li a:hover,
+.navbar__links--open li a:active  {
     border: 1px solid white;
     padding: .5em 3em;
 }
@@ -169,6 +181,9 @@ header {
 }
 
 /*hide class when navigation is open */
+.emptyClass {
+    display: none;
+}
 .hero__left {
     background: url('./images/bg-pattern-intro-left-mobile.svg');
    
