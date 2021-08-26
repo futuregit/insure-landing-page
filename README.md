@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](.\images\Insure-screenshot.png)
+![](./images/Insure-screenshot.png)
 
 ### Links
 
