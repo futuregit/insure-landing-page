@@ -312,6 +312,7 @@ footer {
 .col li a:hover,
 .col li a:active  {
     opacity: 75%;
+    text-decoration: underline;
 }
 
 .footer__social a + a {
@@ -372,18 +373,16 @@ ul li {
         /* margin-right: 5em; */
     }
 
-    .navbar__links li a,
-    .navbar__links--open li a {
+    .navbar__links li a{
         color: var(--primary-darkviolet);
         font-size: 1rem;  
         padding: .5em 1em .5em 1em;
     }
 
     .navbar__links li a:hover,
-    .navbar__links li a:active,
-    .navbar__links--open li a:hover,
-    .navbar__links--open li a:active  {
-        border: 1px solid white;
+    .navbar__links li a:active  {
+        color: white;
+        background-color: var(--primary-darkviolet);
         padding: .5em 1em .5em 1em;
 }
 
