@@ -307,17 +307,35 @@ footer {
     font-size: 2rem;
 }
 
-.footer__social a:hover,
-.footer__social a:active,
+.footer__social a + a {
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+.col li a {
+    text-decoration: none;
+    padding-top: 3em;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.col {
+    list-style: none;   
+    padding-left: 0;
+}
+
+ul li {
+    padding-top: .5em;
+}
+
+.footer__logo-and-social--flex a:hover,
+.footer__logo-and-social--flex a:active,
 .col li a:hover,
 .col li a:active  {
     opacity: 75%;
     text-decoration: underline;
-}
-
-.footer__social a + a {
-    padding-left: 2em;
-    padding-bottom: 1.5em;
 }
 
 .footer__line {
@@ -332,22 +350,8 @@ footer {
     padding-top: 2em;
 }
 
-.col {
-    list-style: none;   
-    padding-left: 0;
-}
 
-.col li a {
-    text-decoration: none;
-    padding-top: 3em;
-    color: black;
-    font-weight: 600;
-    text-transform: uppercase;
-}
 
-ul li {
-    padding-top: .5em;
-}
 
 /* End Structure */
 
