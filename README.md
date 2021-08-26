@@ -12,9 +12,7 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images\Insure-screenshot.png)
+![](.\images\Insure-screenshot.png)
 
 ### Links
 
@@ -113,4 +111,4 @@ You know what they say, "practice makes perfect".
 ## Author
 
 - Website - [Tommy F.](https://tommywebman.netlify.app/)
-- Frontend Mentor - [@futuregite](https://www.frontendmentor.io/profile/futuregit)
+- Frontend Mentor - [@futuregit](https://www.frontendmentor.io/profile/futuregit)
